@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>Chat-Vibe</title>
+    <!-- This Link tag is used for link CSS. -->
+    <link rel="stylesheet" href="style.css">
+    <!-- This Link tag is used for send icon. || It Is Icon Family. -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+   
+    
+</head>
+<body>
+
+   <!-- ChatVibe -->
+   <div class="app">
+   
+    <!-- This Div Is Used For User Login. -->
+    <div class="screen join-screen active">  
+        
+        <div class="form">
+            <h2>Join Chat-Vibe</h2>
+            <div class="form-input">
+                <label for="user"><b>Username : </b></label>
+               <b> <input type="text" id="username" style="font-size: larger;;"></b>
+
+               <label><b>Password : </b></label>
+               <b> <input type="text" id="password" style="font-size: larger;" required></b>
+            </div>
+
+            <!-- This Div Is Used For a button that click the user and join. -->
+            <div class="form-input">
+                <button id="join-user"><b>Join Dude..</b></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- This Div Is Used for Chat Interface. -->
+    <div class="screen chat-screen">
+        <div class="header">
+            <div class="logo">Chat-Vibe</div>
+            <!-- This Button Is Used For Exit The Chat. -->
+                <button id="exit-chat"><b>Exit-Vibe</b></button>
+            </div>
+
+            <div class="messages">
+                <div class="message my-message">
+                    <!-- Testing Div. -->
+                    <!-- <div>
+                        <div class="name"></div>
+                        <div class="text"></div>
+                    </div> -->
+                </div>
+                <div class="update">
+                   
+                </div>
+                <div class="message other-message">
+                    
+                    <!-- <div>
+                        <div class="name"></div>
+                        <div class="text"></div>
+                    </div> -->
+            </div>
+        </div>
+        <!-- This Div Is Used For Input The User and He or she can chat with us. -->
+        <div class="typebox">
+            <input type="text" id="message-input" placeholder="  Vibes" style="font-size:x-large;">
+            <!-- This Italic tag used for Message Send button. -->
+            <i class="material-icons"style="font-size: 35px; padding-left:20px; padding-top:10px;">&#xe163;</i>
+        </div>
+
+    </div>
+
+   </div>
+
+  
+<!-- This Project Is Used For SocketIO Library || JavaScript || -->
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <!-- This script tag is used for link JavaScript -->
+    <script type="text/javascript" src="code.js"></script>
+</body>
+</html>

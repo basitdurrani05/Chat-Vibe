@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/* This Properties Is Used For Login Page. */
+body,html{
+
+    font-size: x-large;
+    font-family: "Roboto",sans-serif;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(digital-connection-technology-social-media.jpg);
+   color: black;
+
+  
+    
+}
+
+/* This Class app is used for chatting page design. */
+.app{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+   
+ 
+   background-repeat: no-repeat;
+   background-size: 590px;
+    
+
+}
+
+.app >.screen{
+
+    display: none;
+}
+
+.app > .screen.active{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.screen .form{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 400px;
+}
+
+.screen .form-input{
+
+    width: 100%;
+    margin: 20px 0px;
+   
+}
+
+.screen h2{
+
+    margin-bottom: 20px;
+    font-size: 30px;
+   color: rgb(0, 255, 183) ;
+   background-color: #111;
+   border-radius: 6px;
+    border-bottom: 4px solid rgb(232, 162, 31);
+    padding: 5px 0px;
+    display: inline-block;
+
+}
+
+.screen .form-input label{
+
+    display: block;
+    margin-bottom: 5px;
+   color: #111;
+   
+}
+
+.screen .form-input input{
+
+    width: 100%;
+    padding: 10px;
+    border: 3px solid aqua;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.screen .form-input button{
+
+    padding: 10px 20px;
+    background: #111;
+    color: #eee;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.screen .form-input button:hover{
+
+    background-image: linear-gradient(aqua,rgb(86, 203, 86),orange,pink);
+   
+    border: 5px solid black;
+    color: black;
+   
+   
+}
+
+
+
+
+
+ .chat-screen .header {
+    background: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    padding: 0px 20px;
+  
+
+}
+
+.chat-screen .header .logo{
+
+    font-size: 18px;
+    color: #eee;
+    font-weight: 600;
+   margin-top: 15px;
+   color: rgb(0, 255, 183);
+}
+
+
+.chat-screen .header button{
+
+    padding: 5px 10px;
+   
+  
+   font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.chat-screen .header button:hover{
+
+   background-color: red;
+   border-radius: 10px;
+}
+
+
+.chat-screen .messages{
+    width: 100%;
+     height: calc(100% - 100px);
+   
+    background-image: url(retro-style-speech-bubble-with-arrow-sign-bright-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    overflow: auto;
+}
+
+.chat-screen .messages .message{
+    display: flex;
+    padding: 10px;
+}
+
+
+.chat-screen .messages .message > div{
+
+    max-width: 80%;
+
+    background: wheat;
+    border-radius: 6px;
+   
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+
+
+.chat-screen .messages .message.my-message{
+
+    justify-content: flex-end;
+   
+
+}
+
+.chat-screen .messages .message.other-message{
+
+    justify-content: flex-start;
+}
+
+
+.chat-screen .messages .message .name{
+
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+
+
+.chat-screen .messages .message .text{
+
+    word-wrap: break-word;
+}
+
+
+.chat-screen .messages .update{
+
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+
+
+.chat-screen .typebox{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+  
+    
+}
+
+
+
+.chat-screen .typebox input{
+
+    flex: 1;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 2px;
+    
+    
+
+}
+
+.chat-screen .typebox input:hover{
+
+    border: 3px solid rgb(0, 255, 183);
+}
+
+
+
+.chat-screen .typebox .material-icons{
+
+    width: 80px;
+    height: 100%;
+    background: #111;
+    color: #eee; 
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+   
+}
+
+.chat-screen .typebox .material-icons:hover{
+
+    background:rgb(0, 255, 183);
+    border: 1px solid #111;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
