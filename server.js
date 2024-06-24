@@ -7,7 +7,7 @@ const server = require("http").createServer(app); //Create a Server.
 
 /*
 
-SOCKET.IO is used for open connections to facilliate Real Time Communication, Still Relatively Newe Phenomenon at this time.
+SOCKET.IO is used for open connections to facilliate Real Time Communication, Still Relatively New Phenomenon at this time.
 
 SOCKET.IO is library that enables real time bidirectional and event based communication between the browser and the server.
 
