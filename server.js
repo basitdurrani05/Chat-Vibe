@@ -1,3 +1,4 @@
+
 const express = require("express"); // Express.js
 const path = require("path");
 const { render } = require("express/lib/response"); // This Is a Render Function Whis Is Used To Two Or More People Communicate Virtually. 
@@ -7,7 +8,7 @@ const server = require("http").createServer(app); //Create a Server.
 
 /*
 
-SOCKET.IO is used for open connections to facilliate Real Time Communication, Still Relatively New Phenomenon at this time.
+SOCKET.IO is used for open connections to faciliate Real Time Communication, Still Relatively New Phenomenon at this time.
 
 SOCKET.IO is library that enables real time bidirectional and event based communication between the browser and the server.
 
@@ -23,7 +24,9 @@ io.on("connection",function(socket){  // Use SOCKET.IO
 
         // If User Join The Chat It's Notifications you "UserName" Joined the conversation.
         // Example -: Basit has already login. Now, Daivik is a new user of ChatVibe Daivik recently join the app and login. so ChatVibe Notification me that daivik has joined the conversation.
-        socket.broadcast.emit("update", username + " Joined the conversation"); 
+        socket.broadcast.emit("update", username + " Joined the conversation");
+        
+
     });
 
 
